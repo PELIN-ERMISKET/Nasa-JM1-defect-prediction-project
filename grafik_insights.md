@@ -4,6 +4,15 @@ This study presents graphical evaluations supporting the data analysis process c
 The visualizations illustrate the relationships between various software metrics and defect presence, highlighting key patterns and trends.
 This file contains insights and observations derived from each plotted figure.
 
+## Defect Distribution Analysis
+
+![Correlation Heatmap Analysis](Images/Defect_Distribution.png)
+
+This bar chart illustrates the distribution of software modules based on their defect status — 0 = Non-defective, 1 = Defective.
+It shows that the dataset is imbalanced, meaning there are significantly more non-defective modules than defective ones.
+This imbalance is crucial for machine learning because it can cause the model to favor the majority class, reducing its ability to correctly predict defective modules.
+Understanding this distribution helps determine whether data balancing techniques (such as oversampling, undersampling, or class weighting) should be applied before model training.
+
 ## Correlation Heatmap Analysis
 
 ![Correlation Heatmap Analysis](Images/Correlation_Heatmap_of_Software_Metrics.png)
