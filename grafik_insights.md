@@ -6,5 +6,6 @@ This file contains insights and observations derived from each plotted figure.
 
 ## Correlation Heatmap Analysis
 
-![Correlation Heatmap Analysis](Correlation_Heatmap_of_Software_Metrics.png)
+![Correlation Heatmap Analysis](Images/Correlation_Heatmap_of_Software_Metrics.png)
+
 
