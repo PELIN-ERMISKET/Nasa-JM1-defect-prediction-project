@@ -16,7 +16,8 @@ Compared models: XGBoost, Logistic Regression, SVM, Random Forest
 - `defects (0/1)`
 
 **Data Split Method**  
-```python
+
+
 train_test_split(test_size=0.2, random_state=42, stratify=y)
 
 | Split         | Ratio | Description                     |
@@ -200,7 +201,7 @@ The SHAP compact view highlights each feature’s average absolute impact on pre
  
 Higher **`loc`** and **`IOBlank`** values significantly increase the predicted probability of a module being **defective**, indicating that larger, more complex, and less-commented code sections are riskier in terms of software quality.
 
-> 🧠 **Interpretation:**  
+>  **Interpretation:**  
 > - *LOC* dominates as the primary risk factor for defects.  
 > - *IOBlank* and *code complexity metrics* amplify defect likelihood.  
 > - SHAP analysis confirms the same trend across multiple samples, providing confidence in feature stability and explainability.
