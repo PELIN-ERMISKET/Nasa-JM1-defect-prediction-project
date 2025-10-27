@@ -59,7 +59,7 @@ Calculated features designed to capture relationships between code complexity, v
 ---
 
 **🧹 Data Cleaning & Scaling**  
-- Missing values handled using `fillna(0)`  
+
 - Standard scaling applied via `StandardScaler` *(only for Set-B models)*  
 
 >  **Note:** Normalization improved model stability for Logistic Regression and SVM, while tree-based models (XGBoost, Random Forest) were trained on unscaled data.
@@ -166,6 +166,16 @@ Confusion Matrix (tuned):
 | **Logistic Regression** | 0.706   | 0.405   | Simple & effective           |
 | **Random Forest**       | 0.716   | 0.404   | High accuracy, low recall    |
 | **SVM (RBF)**           | 0.700   | 0.346   | Lower PR performance         |
+
+---
+
+### 🧭 ML Pipeline Overview
+
+The following diagram illustrates the overall machine learning workflow applied in the NASA JM1 defect prediction project — from data preparation to final outputs and demo.
+
+![ML Pipeline Flow](Images/diagram.png)
+
+---
 
 
 ### 5) Threshold Effect & Confusion Matrices
